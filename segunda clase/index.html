@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tengo sueño</title>
+</head>
+<body>
+
+    <script>
+        ////////////ejercicio 1 //////////
+        var input; //declaracion de variable
+        input =13; //asignacion de input
+
+        if ( input % 13 === 0) {
+            console.log('si es multiplo de 13');
+        } else {
+            console.error('no es multiplo de 13');
+        }
+
+        ////////////ejercicio 2 //////////
+        var input_one, input_two; //declaracion de variable
+        input_one = 3, input_two=13 ;//asignacion de input
+
+        if ( ( ( input_one*input_two ) %2 === 0 ) && ((input_one*input_two) < 30 )) {
+            console.log('si es par y menor a 30');
+        }
+        else if (((input_one*input_two) >= 30) && ((input_one*input_two) < 50) && (( input_one*input_two ) %2 === 0) ) {
+            console.log('si es par, meyor a 30 y menor que 50');
+        } else {
+            console.error('ninguno');
+        }
+        
+    </script>
+</body>
+</html>
