@@ -31,6 +31,47 @@
         } else {
             console.error('ninguno');
         }
+
+         ////////////ejercicio 3 //////////
+        var input_three; //declara variavles
+
+        input_three=0; //asigna valor
+
+        while( input_three <= 100 ){ //iniciamos while con la condicional
+           if( input_three %3 ===0 ){  //si es divicible entre 3
+               console.log(input_three);  //imprimimos el valor de input_three
+           }
+            input_three++; //aumentamos uno
+        }
+
+        ////////////ejercicio 4 //////////
+
+        for(var i = 100 ; i > 0 ; i--){
+            console.log('numero',i);
+        }
+
+        //////////ejercicio 5//////
+        //hoooolaa  array amarilla palindromo //
+        var palabra,dimension,contador, aux,contador_aux;
+        contador=0;
+        aux=0;
+        //contador_aux=0;
+        palabra = 'array';
+        //dimension= palabra.length;
+        while(palabra[aux]!=null)
+        {
+            aux++;
+        }
+
+        for( var i=0 ; i < aux ; i++ ){
+            if ( palabra [ i ] === 'a' ) {
+                contador++;
+            }
+        }
+        console.log('la palabra', palabra , 'tiene ', contador, 'a');
+
+
+        checar si la palabra ingresada es un palindromo o no //roooor
         
     </script>
 </body>
