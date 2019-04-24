@@ -48,22 +48,33 @@ console.log(reversa("pedo"));
 var palabra= 'cosa'
 
 function firsLaterUpperCase (word){
-    var latter=word.split(' ').map(function(element){
+    return word.split(' ').map(function(element){
     var latterElement=element.split('');
-    var FirslatterElement=latterElement[0].toUpperCase();
-    
-        console.log(FirslatterElement , element);
-    });
-    
-    console.log(latter);
+    latterElement[0]=latterElement[0].toUpperCase();
+    return latterElement.join("")
+    }).join(" ");
 }
 
-
-firsLaterUpperCase("hola que haces")
+console.log(firsLaterUpperCase("frase de prueba para first latter")); 
 
 
 
 
 ///////ejercicio 4//////
 /////avanza 7 letras en el abecedario////
+
+function encriptar(encriptWord){
+    //var abc =[a,b,c,d,e,f,g,h,i,j,k,l,m,n,ñ,o,p,q,r,s,t,u,v,w,x,y,z];
+    //var ABC =[A,B,C,D,E,F,G,H,I,J,K,L,M,N,Ñ,O,P,Q,R,S,T,U,V,W,X,Y,Z];
+    return encriptWord.split(" ").map(function(element){
+        return element;
+    });
+}
+
+
+
+
+console.log(encriptar("hola adios"));
+
+
 
