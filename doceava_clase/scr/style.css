@@ -1,0 +1,14 @@
+div.conteiner{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+
+div.mystyle {
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+  }
